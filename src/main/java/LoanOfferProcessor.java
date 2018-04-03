@@ -9,11 +9,8 @@ import java.util.Optional;
 
 /**
  * LoanOfferProcessor is a main class:
- * - has a section which defines all dependencies used by the service.
- * It has to be replaced by a DI framework (Google Guice ...) for more complex projects.
- * - most of the dependencies are singletons (their instances can be reused in the code),
- * generally a simple static class would be used for such a small project.
- * Assuming that this is a part of a bigger project. In that case we would need a better way to manage dependencies.
+ * - has a section which defines all dependencies used by the service (to be replaced by a DI framework (f.e. Google Guice) for more complex projects.
+ * - most of the dependencies are singleton dependencies (are initialised once and reused in the code), a simple static class can be used instead in a small project.
  */
 
 public class LoanOfferProcessor {
