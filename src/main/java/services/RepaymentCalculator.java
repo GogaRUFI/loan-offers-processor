@@ -7,7 +7,7 @@ import models.ResultRepayment;
  * - regular and total repayments on monthly basis
  * - for 3 years loan in total
  * - using effective interest rate which has to be calculated on the same basis (monthly)
- * - for calculations doubles are used, which applies some limitations to the large values and precision of the calculations (for more advanced calculations third-party libraries utilising BigDecimal can be used)
+ * - for calculations double type is used which applies some limitations to precision of the calculations for large numbers (for advanced calculations third-party libraries utilising BigDecimal can be used instead)
  */
 
 public class RepaymentCalculator {
