@@ -9,10 +9,11 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
-/* LoanOfferService is responsible for finding the best loan offer:
-    - uses other services for calculations
-    - uses an injected data access object to read loan offers
-*/
+/** 
+ * LoanOfferService is responsible for finding the best loan offer:
+ * - uses other services for calculations
+ * - uses an injected data access object to read loan offers
+ */
 
 public class LoanOfferService {
 
